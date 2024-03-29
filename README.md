@@ -151,7 +151,7 @@ For 2024 Season, the Top 10 of Most Wins:
 
 ![2024 Most wins](<docs/Top 10 Most Wins in 2024.png>)
 
-The Number 1 Chalk Seed for each region: 
+The 2024 Number 1 Chalk Seed for each region: 
 
 ```sh
 seeds_2024.query('Chalk_Seed == 1')

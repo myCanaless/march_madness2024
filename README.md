@@ -133,15 +133,15 @@ team_performance = team_performance.groupby('TeamName').agg({'W':'sum','L':'sum'
 TeamName	    W	L
 Abilene Chr	    136	152
 Air Force	    282	352
-Akron	        440	235
-Alabama         417	270
+Akron	       	    440	235
+Alabama             417	270
 Alabama A&M	    189	406
-...	...	...	... ... ...
+... ... ... ... ... ... ...
 Wright St	    382	285
-Wyoming	        310	342
-Xavier	        473	219
-Yale	        323	255
-Youngstown St	231	397
+Wyoming	            310	342
+Xavier	            473	219
+Yale	            323	255
+Youngstown St	    231	397
 ```
 Top 10 of Most Wins and Losses:
 

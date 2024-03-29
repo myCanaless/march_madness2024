@@ -282,6 +282,10 @@ Logistic Regression Accuracy: 0.7321
 XGBoost Accuracy: 0.7356
 ```
 
+## Notes
+
+Did not complete bracket simulation in time but will use this as base for future use.
+
 ## Reference  
 
 * [Kaggle - ML March Madness](https://www.kaggle.com/code/robikscube/machine-learning-bracket-gpu-powered)

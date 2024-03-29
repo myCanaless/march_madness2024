@@ -289,6 +289,7 @@ Did not complete bracket simulation in time but will use this as base for future
 ## Reference  
 
 * [Kaggle - ML March Madness](https://www.kaggle.com/code/robikscube/machine-learning-bracket-gpu-powered)
+* [Youtube - March Madness with Machine Learning](https://www.youtube.com/watch?v=v4DER0RT4NQ&t=2710s)
 * [Kaggle - Bracket Simulation](https://www.kaggle.com/code/lennarthaupts/simulate-n-brackets) - for future use 
 * [Kaggle - XgBoost](https://www.kaggle.com/code/khoongweihao/ncaam2020-2021-xgboost-lightgbm-k-fold)
 * [Kaggle - 538 ratings](https://www.kaggle.com/datasets/raddar/ncaa-men-538-team-ratings/data) - for future use

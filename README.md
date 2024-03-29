@@ -234,7 +234,7 @@ Getting the WinLoss Ratio
 
 ```sh
 df['WinLossRatioDiff'] = df['WinLossRatio_W'] - df['WinLossRatio_L']
-df['AvgScoreDiffDiff'] = df['AvgScoreDiff_W'] - df['AvgScoreDiff_L']
+df['AvgScoreDiff'] = df['AvgScoreDiff_W'] - df['AvgScoreDiff_L']
 ```
 Inverting the data frame so the model gets examples to learn from 
 
@@ -242,7 +242,7 @@ Inverting the data frame so the model gets examples to learn from
 new_df = df.copy()
 df_inverted = df.copy()
 df_inverted['WinLossRatioDiff'] = -df['WinLossRatioDiff'] 
-df_inverted['AvgScoreDiffDiff'] = -df['AvgScoreDiffDiff']  
+df_inverted['AvgScoreDiff'] = -df['AvgScoreDiff']  
 df_inverted['Outcome'] = 0
 new_df['Outcome'] = 1
 df = pd.concat([new_df, df_inverted], ignore_index=True)
@@ -256,14 +256,14 @@ features = [
     'DayNum', 'TS%_Diff', 'eFG%_Diff',
     'WinLossRatio_W', 'WinLossRatio_L',
     'AvgScoreDiff_W', 'AvgScoreDiff_L',
-    'WinLossRatioDiff', 'AvgScoreDiffDiff'
+    'WinLossRatioDiff', 'AvgScoreDiff'
     ]
 ```
 
 ## Model
 
 ```sh
-X = df[['WinLossRatioDiff', 'AvgScoreDiffDiff']]
+X = df[['WinLossRatioDiff', 'AvgScoreDiff']]
 y = df['Outcome'] 
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)

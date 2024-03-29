@@ -286,7 +286,7 @@ XGBoost Accuracy: 0.7356
 
 Did not complete bracket simulation in time but will use this as base for future use.
 
-## Reference  
+## Reference & tools 
 
 * [Kaggle - ML March Madness](https://www.kaggle.com/code/robikscube/machine-learning-bracket-gpu-powered)
 * [Youtube - March Madness with Machine Learning](https://www.youtube.com/watch?v=v4DER0RT4NQ&t=2710s)
@@ -294,4 +294,5 @@ Did not complete bracket simulation in time but will use this as base for future
 * [Kaggle - XgBoost](https://www.kaggle.com/code/khoongweihao/ncaam2020-2021-xgboost-lightgbm-k-fold)
 * [Kaggle - 538 ratings](https://www.kaggle.com/datasets/raddar/ncaa-men-538-team-ratings/data) - for future use
 * [Github - March Madness](https://github.com/harvitronix/kaggle-march-madness-machine-learning)
+* [Google - Colaboratory](https://colab.research.google.com/notebooks/charts.ipynb#scrollTo=xNzEBRkzL3B0)
 

@@ -282,3 +282,10 @@ Logistic Regression Accuracy: 0.7321
 XGBoost Accuracy: 0.7356
 ```
 
+## Reference  
+
+* [Kaggle - ML March Madness](https://www.kaggle.com/code/robikscube/machine-learning-bracket-gpu-powered)
+* [Kaggle - Bracket Simulation](https://www.kaggle.com/code/lennarthaupts/simulate-n-brackets) - for future use 
+* [Kaggle - XgBoost](https://www.kaggle.com/code/khoongweihao/ncaam2020-2021-xgboost-lightgbm-k-fold)
+* [Kaggle - 538 ratings](https://www.kaggle.com/datasets/raddar/ncaa-men-538-team-ratings/data) - for future use
+

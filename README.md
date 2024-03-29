@@ -108,7 +108,7 @@ season_results[["Season", "League","DayNum", "LTeamID", "WScore", "LScore"]].ass
 team_results.sample(10, random_state=99)
 ```
 ```sh
-	Season	League	DayNum	TeamID	TeamScore	OppScore	GameResult
+	Season	League	    DayNum  TeamID	TeamScore	OppScore	GameResult
 	2019	M	    101	    1410	59	        44	        W
 	2014	M	    41	    1461	61	        64	        L
 	2014	M	    33	    1420	68	        70	        L
@@ -133,15 +133,15 @@ team_performance = team_performance.groupby('TeamName').agg({'W':'sum','L':'sum'
 TeamName	    W	L
 Abilene Chr	    136	152
 Air Force	    282	352
-Akron	        440	235
-Alabama         417	270
+Akron	       	    440	235
+Alabama             417	270
 Alabama A&M	    189	406
-...	...	...	... ... ...
+... ... ... ... ... ... ...
 Wright St	    382	285
-Wyoming	        310	342
-Xavier	        473	219
-Yale	        323	255
-Youngstown St	231	397
+Wyoming	            310	342
+Xavier	            473	219
+Yale	            323	255
+Youngstown St	    231	397
 ```
 Top 10 of Most Wins and Losses:
 
@@ -159,9 +159,9 @@ seeds_2024.query('Chalk_Seed == 1')
 ```sh
 TeamName	    Chalk_Seed	Region
 Connecticut	    1	        W
-North Carolina	1	        X
-Purdue	        1	        Y
-Houston	        1	        Z
+North Carolina	    1	        X
+Purdue	            1	        Y
+Houston	            1	        Z
 ```
 ### Using Advanced Basketball Statistics
 
@@ -181,13 +181,13 @@ season_results[['Season','League','DayNum','WTeamID','LTeamID','ScoreDiff','TS%_
 ```
 
 ```sh
-Season	League	DayNum	WTeamID	LTeamID	ScoreDiff	TS%_Diff	eFG%_Diff
+Season	League	    DayNum  WTeamID	LTeamID	ScoreDiff	TS%_Diff	eFG%_Diff
 2003	M	    10	    1104	1328	6	        0.021201	0.057417
 2003	M	    10	    1272	1393	7	        0.081874	0.080886
 2003	M	    11	    1266	1437	12	        0.148889	0.160841
 2003	M	    11	    1296	1457	6	        0.092575	0.084586
 2003	M	    11	    1400	1208	6	        0.096529	0.105500
-...	...	...	...	...	...	...	...	... ... ... ... ... ... ... ... ... ... 
+... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...  
 2024	M	    114	    1454	1237	5	        0.055799	0.022289
 2024	M	    114	    1455	1412	8	        0.111259	0.126706
 2024	M	    114	    1459	1359	22	        0.158614	0.232512
@@ -203,31 +203,31 @@ Season	TeamID	Wins	Losses
 2003	1102	12.0	16.0
 2003	1103	13.0	14.0
 2003	1104	17.0	11.0
-2003	1105	7.0	    19.0
+2003	1105	7.0	19.0
 2003	1106	13.0	15.0
-...	...	...	...	... ... ...
-2015	1212	0.0	    27.0
-2015	1363	0.0	    28.0
-2021	1152	0.0	    9.0
-2022	1175	0.0	    25.0
-2022	1249	0.0	    27.0
+... ... ... ...	... ... ...
+2015	1212	0.0	27.0
+2015	1363	0.0	28.0
+2021	1152	0.0	9.0
+2022	1175	0.0	25.0
+2022	1249	0.0	27.0
 7617 rows × 4 columns
 ```
 Getting the Win/Loss ratios and Overall Score
 
 ```sh
 Season	TeamID	Wins	AvgWinScoreDiff	Losses	AvgLossScoreDiff	WinLossRatio	AvgScoreDiff
-2003	1102	12	    15.583333	    16.0	-11.250000	        0.705882	    0.250000
-2003	1103	13	    9.384615	    14.0	-7.500000	        0.866667	    0.629630
-2003	1104	17	    13.176471	    11.0	-9.454545	        1.416667	    4.285714
-2003	1105	7	    13.000000	    19.0	-11.473684	        0.350000	    -4.884615
-2003	1106	13	    10.384615	    15.0	-9.266667	        0.812500	    -0.142857
+2003	1102	12	15.583333	16.0	-11.250000	        0.705882	    0.250000
+2003	1103	13	9.384615	14.0	-7.500000	        0.866667	    0.629630
+2003	1104	17	13.176471	11.0	-9.454545	        1.416667	    4.285714
+2003	1105	7	13.000000	19.0	-11.473684	        0.350000	    -4.884615
+2003	1106	13	10.384615	15.0	-9.266667	        0.812500	    -0.142857
 ...	...	...	...	...	...	...	...	... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...
-2024	1474	10	    8.900000	    18.0	-14.166667	        0.526316	    -5.928571
-2024	1475	5	    8.000000	    21.0	-11.952381	        0.227273	    -8.115385
-2024	1476	3	    10.666667	    25.0	-16.480000	        0.115385	    -13.571429
-2024	1477	7	    6.714286	    18.0	-17.222222	        0.368421	    -10.520000
-2024	1478	9	    15.888889	    16.0	-14.250000	        0.529412	    -3.400000
+2024	1474	10	8.900000	18.0	-14.166667	        0.526316	    -5.928571
+2024	1475	5	8.000000	21.0	-11.952381	        0.227273	    -8.115385
+2024	1476	3	10.666667	25.0	-16.480000	        0.115385	    -13.571429
+2024	1477	7	6.714286	18.0	-17.222222	        0.368421	    -10.520000
+2024	1478	9	15.888889	16.0	-14.250000	        0.529412	    -3.400000
 7609 rows × 8 columns
 ```
 Getting the WinLoss Ratio 
@@ -286,11 +286,13 @@ XGBoost Accuracy: 0.7356
 
 Did not complete bracket simulation in time but will use this as base for future use.
 
-## Reference  
+## Reference & tools 
 
 * [Kaggle - ML March Madness](https://www.kaggle.com/code/robikscube/machine-learning-bracket-gpu-powered)
+* [Youtube - March Madness with Machine Learning](https://www.youtube.com/watch?v=v4DER0RT4NQ&t=2710s)
 * [Kaggle - Bracket Simulation](https://www.kaggle.com/code/lennarthaupts/simulate-n-brackets) - for future use 
 * [Kaggle - XgBoost](https://www.kaggle.com/code/khoongweihao/ncaam2020-2021-xgboost-lightgbm-k-fold)
 * [Kaggle - 538 ratings](https://www.kaggle.com/datasets/raddar/ncaa-men-538-team-ratings/data) - for future use
 * [Github - March Madness](https://github.com/harvitronix/kaggle-march-madness-machine-learning)
+* [Google - Colaboratory](https://colab.research.google.com/notebooks/charts.ipynb#scrollTo=xNzEBRkzL3B0)
 

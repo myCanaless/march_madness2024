@@ -159,9 +159,9 @@ seeds_2024.query('Chalk_Seed == 1')
 ```sh
 TeamName	    Chalk_Seed	Region
 Connecticut	    1	        W
-North Carolina	1	        X
-Purdue	        1	        Y
-Houston	        1	        Z
+North Carolina	    1	        X
+Purdue	            1	        Y
+Houston	            1	        Z
 ```
 ### Using Advanced Basketball Statistics
 

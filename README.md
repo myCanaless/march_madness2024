@@ -108,7 +108,7 @@ season_results[["Season", "League","DayNum", "LTeamID", "WScore", "LScore"]].ass
 team_results.sample(10, random_state=99)
 ```
 ```sh
-	Season	League	DayNum	TeamID	TeamScore	OppScore	GameResult
+	Season	League	    DayNum  TeamID	TeamScore	OppScore	GameResult
 	2019	M	    101	    1410	59	        44	        W
 	2014	M	    41	    1461	61	        64	        L
 	2014	M	    33	    1420	68	        70	        L
@@ -181,13 +181,13 @@ season_results[['Season','League','DayNum','WTeamID','LTeamID','ScoreDiff','TS%_
 ```
 
 ```sh
-Season	League	DayNum	WTeamID	LTeamID	ScoreDiff	TS%_Diff	eFG%_Diff
+Season	League	    DayNum  WTeamID	LTeamID	ScoreDiff	TS%_Diff	eFG%_Diff
 2003	M	    10	    1104	1328	6	        0.021201	0.057417
 2003	M	    10	    1272	1393	7	        0.081874	0.080886
 2003	M	    11	    1266	1437	12	        0.148889	0.160841
 2003	M	    11	    1296	1457	6	        0.092575	0.084586
 2003	M	    11	    1400	1208	6	        0.096529	0.105500
-...	...	...	...	...	...	...	...	... ... ... ... ... ... ... ... ... ... 
+... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...  
 2024	M	    114	    1454	1237	5	        0.055799	0.022289
 2024	M	    114	    1455	1412	8	        0.111259	0.126706
 2024	M	    114	    1459	1359	22	        0.158614	0.232512
